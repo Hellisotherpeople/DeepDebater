@@ -192,8 +192,16 @@ https://github.com/user-attachments/assets/003aea49-5298-48c9-abed-33edbdaf9b04
 Arguments explaining why the negative's interpretation should be preferred over the affirmative's interpretation.
 
 
+https://github.com/user-attachments/assets/af9f36e9-3400-4307-af0c-7319ddae6431
+
+
+
 **Theory Interpretation Evidence**
 Evidence supporting the negative's theoretical framework for evaluating debate practices and norms.
+
+
+
+https://github.com/user-attachments/assets/534f39e5-13bb-4992-9bc1-2bbc90b4a716
 
 
 
@@ -201,47 +209,107 @@ Evidence supporting the negative's theoretical framework for evaluating debate p
 Argument claiming that the affirmative has violated established debate theory or competitive equity principles.
 
 
+https://github.com/user-attachments/assets/bd3dd7ca-1a83-4953-b7cb-68ff3674376c
+
+
+
 **Theory Reasons to Prefer Argument**
 Arguments explaining why the negative's theoretical position should be accepted by the judge.
+
+
+https://github.com/user-attachments/assets/c5e53bd8-4df4-4c9b-81c3-f7af475a4f2b
+
 
 **Disadvantage Uniqueness Evidence**
 Evidence showing that the negative consequences will not occur in the status quo but will result from the plan.
 
+
+https://github.com/user-attachments/assets/9404ae14-06e3-4e5c-8231-778143b3553d
+
+
 **Disadvantage Link Evidence**
 Evidence demonstrating how the affirmative plan directly causes or increases the risk of the disadvantage.
+
+
+https://github.com/user-attachments/assets/2f229b9b-3049-4877-83f2-dcccd228b32c
+
 
 **Disadvantage Internal Link Evidence**
 Evidence connecting the plan's effects to the chain of events leading to the disadvantage impact.
 
+
+https://github.com/user-attachments/assets/33ea623c-034f-48b5-804f-9c6f0602c8c7
+
+
 **Disadvantage Impact Evidence**
 Evidence establishing the magnitude, probability, and timeframe of the negative consequences from the plan.
+
+
+https://github.com/user-attachments/assets/04213674-5025-4d40-a7d1-5f2fe77c5db6
+
 
 **Counterplan Text**
 The specific text and mechanism of the negative's alternative policy proposal.
 
+
+https://github.com/user-attachments/assets/2bc237dc-a970-446f-aed7-08203f8d6c35
+
+
 **Counterplan Solvency Evidence**
 Evidence demonstrating that the counterplan can achieve the affirmative's benefits without the plan.
+
+
+https://github.com/user-attachments/assets/aebb4953-29b5-4ffe-b971-c66f81c2594d
+
 
 **Counterplan Net Benefit Evidence**
 Evidence showing that the counterplan avoids the disadvantages or problems associated with the affirmative plan.
 
+
+https://github.com/user-attachments/assets/7cc00ad2-2f0e-4d3b-9068-10be2e5141f8
+
+
 **Kritik Link Evidence**
 Evidence connecting the affirmative's assumptions, language, or methodology to problematic frameworks or ideologies.
+
+
+https://github.com/user-attachments/assets/9b52b963-7f5c-4efc-ae45-9425d21299a4
+
 
 **Kritik Impact Evidence**
 Evidence establishing the negative consequences of the affirmative's approach or worldview.
 
+
+https://github.com/user-attachments/assets/983cbeb0-729a-48e5-87f3-6028c7c8a832
+
+
 **Kritik Role of Ballot Evidence**
 Evidence explaining how the judge should evaluate the debate and what voting for the negative would accomplish.
 
-**On Case Rebuttal Evidence 0**
-Evidence directly challenging the first set of affirmative advantage claims or solvency arguments.
+
+https://github.com/user-attachments/assets/7bda5ea0-ccbc-427e-b31c-7b5b7ee06337
+
 
 **On Case Rebuttal Evidence 1**
-Evidence directly challenging the second set of affirmative advantage claims or solvency arguments.
+Evidence directly challenging the first set of affirmative advantage claims or solvency arguments.
+
+
+https://github.com/user-attachments/assets/26677b6e-8497-4ff0-b1bd-0e70b0a12eb6
+
 
 **On Case Rebuttal Evidence 2**
+Evidence directly challenging the second set of affirmative advantage claims or solvency arguments.
+
+
+https://github.com/user-attachments/assets/c3cc767a-4b26-4373-a0e9-069d5eee3d9d
+
+
+**On Case Rebuttal Evidence 3**
 Evidence directly challenging the third set of affirmative advantage claims or solvency arguments.
+
+
+https://github.com/user-attachments/assets/4bab91e8-5802-4a01-9970-d8d6e57952b0
+
 
 </details>
 
@@ -265,6 +333,10 @@ The Second Affirmative Constructive responds to all negative arguments from the 
 **2AC Evidence**
 Comprehensive evidence package supporting the affirmative's responses to all negative arguments and extensions of case arguments.
 
+
+https://github.com/user-attachments/assets/62c6b5f5-a3d3-4d56-8c98-a286cb373a19
+
+
 **2AC Speech**
 The complete second affirmative constructive speech responding to the 1NC and rebuilding the affirmative case.
 
@@ -287,10 +359,12 @@ Complete transcript of the cross examination period with questions and answers b
 
 The Second Negative Constructive extends and develops the most strategic negative arguments from the 1NC, typically focusing on 2-3 key positions while going for more evidence and analysis.
 
-**2NC Evidence**
+**2NC Speech/Evidence**
 Evidence package supporting the negative's strategic choices and extensions in the second constructive.
 
-*WIP - Speech too large to upload*
+
+https://github.com/user-attachments/assets/9e213b7a-3409-4be2-a174-58d3d5709f02
+
 
 </details>
 
@@ -302,6 +376,10 @@ The First Negative Rebuttal works in conjunction with the 2NC to extend negative
 
 **1NR Speech**
 The complete first negative rebuttal speech extending and developing negative arguments in coordination with the 2NC.
+
+
+https://github.com/user-attachments/assets/721ad536-7d27-40c4-a81b-2d206af49488
+
 
 </details>
 
@@ -346,6 +424,10 @@ The Second Affirmative Rebuttal is the final speech of the debate, where the aff
 **2AR Speech**
 The complete second affirmative rebuttal speech presenting the affirmative's final arguments and reasons to vote affirmative.
 
+
+https://github.com/user-attachments/assets/5ace80c9-0ee7-4e07-9280-ea1fc39c850f
+
+
 </details>
 
 ### Judge Decision
@@ -354,7 +436,9 @@ The complete second affirmative rebuttal speech presenting the affirmative's fin
 
 The judge's final decision and reasoning for who won the debate round, including analysis of key arguments and voting issues.
 
-**Judge Decision**
-The complete judge's decision with detailed reasoning, argument evaluation, and explanation of the final vote.
+
+https://github.com/user-attachments/assets/c97760eb-7151-49c7-b125-b70aaa0922a1
+
+
 
 </details>
