@@ -6,16 +6,7 @@ Big WIP but if you can read a jupyter notebook, get an Openai api key, and have 
 
 ## Debate Speeches and Evidence
 
-
-## Debate Speeches and Evidence
-
 This section contains all the generated speeches and evidence from the automated debate system, presented in the exact order of a competitive policy debate round.
-
-### 1AC (First Affirmative Constructive)
-<details>
-<summary>Click to expand 1AC content</summary>
-
-The First Affirmative Constructive establishes the affirmative case, presenting the problem (inherency and harms), the solution (plan), and the benefits (advantages with solvency).
 
 **Judge Introduction**
 Opening remarks from the judge explaining the debate format, evaluation criteria, and expectations for the round.
@@ -23,26 +14,17 @@ Opening remarks from the judge explaining the debate format, evaluation criteria
 **Affirmative Introduction**
 The affirmative team's opening statement introducing their case, topic interpretation, and roadmap for their constructive speech.
 
+### 1AC (First Affirmative Constructive)
+<details>
+<summary>Click to expand 1AC content</summary>
+
+The First Affirmative Constructive establishes the affirmative case, presenting the problem (inherency and harms), the solution (plan), and the benefits (advantages with solvency).
+
 **Inherency Evidence**
 Evidence demonstrating that the current system is failing to address the problem and that the status quo is insufficient.
 
 **Harm Evidence**
 Evidence establishing the significant problems and negative consequences that exist under the current system.
-
-**Advantage Uniqueness Evidence**
-Evidence showing that the benefits claimed by the affirmative are not currently being achieved in the status quo.
-
-**Advantage Link Evidence**
-Evidence demonstrating how the affirmative plan directly causes or enables the claimed advantages.
-
-**Advantage Internal Link Evidence**
-Evidence connecting the plan's mechanism to the intermediate steps that lead to the final impact.
-
-**Advantage Impact Evidence**
-Evidence establishing the magnitude, probability, and timeframe of the positive consequences from the affirmative plan.
-
-**Advantage Evidence**
-General advantage evidence supporting the affirmative's benefit claims.
 
 **Advantage 1 Uniqueness Evidence**
 Evidence showing that the first advantage is not currently being achieved in the status quo.
@@ -85,14 +67,16 @@ Evidence demonstrating that the affirmative plan will effectively solve the prob
 
 </details>
 
+
+**Negative Introduction**
+The negative team's opening statement outlining their strategy and approach to refuting the affirmative case.
+
+
 ### 1NC (First Negative Constructive)
 <details>
 <summary>Click to expand 1NC content</summary>
 
 The First Negative Constructive presents the negative strategy, typically including topicality arguments, theory arguments, disadvantages, counterplans, kritiks, and on-case attacks against the affirmative advantages.
-
-**Negative Introduction**
-The negative team's opening statement outlining their strategy and approach to refuting the affirmative case.
 
 **Topicality Interpretation Evidence**
 Evidence providing the negative's interpretation of key terms in the resolution and establishing definitional standards.
