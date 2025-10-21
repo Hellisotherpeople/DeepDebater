@@ -8,8 +8,8 @@ Big WIP but if you can read a jupyter notebook, get an Openai api key, and have 
 
 This section contains all the generated speeches and evidence from the automated debate system, presented in the exact order of a competitive policy debate round.
 
-**Judge Introduction**
-Opening remarks from the judge explaining the debate format, evaluation criteria, and expectations for the round.
+**Judge Introduction/Topic Introduction**
+Opening remarks from the judge introducing themselves and the debate topic
 
 
 https://github.com/user-attachments/assets/0c014917-750b-443b-a24d-32a918c33ae0
@@ -45,6 +45,12 @@ Evidence establishing the significant problems and negative consequences that ex
 
 
 https://github.com/user-attachments/assets/90e659dc-55ee-4d3d-819f-c92406eb1717
+
+**Advantage Introductions**
+Introducing each Advantage
+
+
+https://github.com/user-attachments/assets/6c77c359-2855-4b30-8051-5cc1044cb8ff
 
 
 **Advantage 1 Uniqueness Evidence**
@@ -85,26 +91,58 @@ https://github.com/user-attachments/assets/d1cb7e2a-6f93-4c41-81f9-c492081451c4
 **Advantage 2 Link Evidence**
 Evidence demonstrating how the plan causes or enables the second advantage.
 
+
+https://github.com/user-attachments/assets/3ed1da54-6509-4dc2-8d72-be9ef11502ca
+
+
 **Advantage 2 Internal Link Evidence**
 Evidence connecting the plan to the intermediate steps leading to the second advantage's impact.
+
+
+https://github.com/user-attachments/assets/69e68e04-597e-406b-9770-952f8afe88e6
+
 
 **Advantage 2 Impact Evidence**
 Evidence establishing the significance and consequences of the second advantage.
 
+
+https://github.com/user-attachments/assets/e24a966a-0b06-437a-bb87-a6b5d4f56cec
+
+
 **Advantage 3 Uniqueness Evidence**
 Evidence showing that the third advantage is not currently being achieved in the status quo.
+
+
+https://github.com/user-attachments/assets/f0c3bde4-24d1-443c-9419-1154088710a1
+
 
 **Advantage 3 Link Evidence**
 Evidence demonstrating how the plan causes or enables the third advantage.
 
+
+https://github.com/user-attachments/assets/79bf44b1-64e0-4c56-b2cc-ea46f6eba935
+
+
 **Advantage 3 Internal Link Evidence**
 Evidence connecting the plan to the intermediate steps leading to the third advantage's impact.
+
+
+https://github.com/user-attachments/assets/a42b1ff3-813e-4e2a-97c0-82fdba14119e
+
 
 **Advantage 3 Impact Evidence**
 Evidence establishing the significance and consequences of the third advantage.
 
+
+https://github.com/user-attachments/assets/45453364-6bb3-4eb1-bfd5-440f2110a3e5
+
+
 **Solvency Evidence**
 Evidence demonstrating that the affirmative plan will effectively solve the problems identified and achieve the claimed advantages.
+
+
+https://github.com/user-attachments/assets/c01b61a4-5662-4072-bf90-fa58419e3858
+
 
 </details>
 
@@ -117,6 +155,10 @@ The negative team's cross examination of the first affirmative speaker, focusing
 **CX of 1AC Transcript**
 Complete transcript of the cross examination period with questions and answers between the negative and affirmative teams.
 
+
+https://github.com/user-attachments/assets/24841001-5eab-4ba6-9943-d665447c8565
+
+
 </details>
 
 **Negative Introduction**
@@ -128,20 +170,36 @@ The negative team's opening statement outlining their strategy and approach to r
 
 The First Negative Constructive presents the negative strategy, typically including topicality arguments, theory arguments, disadvantages, counterplans, kritiks, and on-case attacks against the affirmative advantages.
 
+
+https://github.com/user-attachments/assets/c35fd95f-c5f9-43b9-af1f-32a94ed407f1
+
+
 **Topicality Interpretation Evidence**
 Evidence providing the negative's interpretation of key terms in the resolution and establishing definitional standards.
+
+
+https://github.com/user-attachments/assets/90487224-da38-42d9-971b-2b9f6b45ce20
+
 
 **Topicality Violation**
 Argument demonstrating how the affirmative plan fails to meet the negative's interpretation of the resolution.
 
+
+https://github.com/user-attachments/assets/003aea49-5298-48c9-abed-33edbdaf9b04
+
+
 **Topicality Reasons to Prefer**
 Arguments explaining why the negative's interpretation should be preferred over the affirmative's interpretation.
+
 
 **Theory Interpretation Evidence**
 Evidence supporting the negative's theoretical framework for evaluating debate practices and norms.
 
+
+
 **Theory Violation Argument**
 Argument claiming that the affirmative has violated established debate theory or competitive equity principles.
+
 
 **Theory Reasons to Prefer Argument**
 Arguments explaining why the negative's theoretical position should be accepted by the judge.
