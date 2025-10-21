@@ -7,5 +7,4 @@ Big WIP but if you can read a jupyter notebook, get an Openai api key, and have 
 
 <audio controls>
   <source src="https://github.com/Hellisotherpeople/DeepDebater/raw/main/speeches/1ar_speech.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
 </audio>
