@@ -15,7 +15,11 @@ This section contains all the generated speeches and evidence from the automated
 The First Affirmative Constructive establishes the affirmative case, presenting the problem (inherency and harms), the solution (plan), and the benefits (advantages with solvency).
 
 **Judge Introduction**
-https://github.com/user-attachments/assets/95600319-daca-411f-85e8-0efc95b732ce
+
+
+https://github.com/user-attachments/assets/a1514d7c-ae07-4b4c-93e2-47ef983a1f13
+
+
 
 **Affirmative Introduction**
 https://github.com/user-attachments/assets/dcee3d32-1167-4f17-9ef7-2e023d47051e
