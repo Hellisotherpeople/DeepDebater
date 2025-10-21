@@ -20,7 +20,11 @@ https://github.com/user-attachments/assets/0c014917-750b-443b-a24d-32a918c33ae0
 The affirmative team's opening statement introducing their case, topic interpretation, and roadmap for their constructive speech.
 
 
-https://github.com/user-attachments/assets/69ad0b8b-6154-4958-9159-c7d381720bc3
+
+
+https://github.com/user-attachments/assets/16f61aa8-8209-461f-aa1d-e177f435f4b1
+
+
 
 
 ### 1AC (First Affirmative Constructive)
