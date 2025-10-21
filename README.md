@@ -8,461 +8,198 @@ Big WIP but if you can read a jupyter notebook, get an Openai api key, and have 
 
 This section contains all the generated speeches and evidence from the automated debate system, presented in the exact order of a competitive policy debate round.
 
-<details>
-<summary><strong>Judge Introduction</strong></summary>
 
-### Judge Introduction
-<details>
-<summary>View Judge Introduction</summary>
+https://github.com/user-attachments/assets/95600319-daca-411f-85e8-0efc95b732ce
 
-The judge introduction establishes the parameters of the debate round, explains the judging philosophy, and sets expectations for the debaters. This segment outlines the criteria for evaluation, time limits, and procedural guidelines that will govern the debate round.
 
-![Judge Introduction](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/judge_intro.mp4)
 
-</details>
+https://github.com/user-attachments/assets/dcee3d32-1167-4f17-9ef7-2e023d47051e
 
-</details>
 
-<details>
-<summary><strong>First Affirmative Constructive (1AC)</strong></summary>
 
-### Affirmative Introduction
-<details>
-<summary>View Affirmative Introduction</summary>
+https://github.com/user-attachments/assets/5d99f425-0082-4a25-ba7d-8c20925cd587
 
-The affirmative introduction opens the debate round by establishing the affirmative team's interpretation of the resolution. This speech provides essential definitions, outlines the case structure, and sets the framework for evaluating the debate. It introduces the plan and previews the advantages that will demonstrate why the resolution should be affirmed.
 
-![Affirmative Introduction](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/affirmative_intro.mp4)
 
-</details>
+https://github.com/user-attachments/assets/876d6f5a-9b6f-4a8a-8c0b-4c4397718e55
 
-### Inherency Evidence
-<details>
-<summary>View Inherency Evidence</summary>
 
-Inherency evidence demonstrates that the problem identified by the affirmative will not be solved without the affirmative plan. This evidence shows that the status quo is structurally unable to address the harms, establishing the need for the specific action proposed by the affirmative team.
 
-![Inherency Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/inherency_evidence.mp4)
+https://github.com/user-attachments/assets/79acacf0-7481-4aa5-bd53-3f2f9073fd6c
 
-</details>
 
-### Harm Evidence
-<details>
-<summary>View Harm Evidence</summary>
 
-Harm evidence establishes the significance of the problem that the affirmative plan aims to solve. This evidence demonstrates the scope, magnitude, and urgency of the current harms in the status quo, providing the foundation for why change is necessary and beneficial.
+https://github.com/user-attachments/assets/1a8a5cd5-8d45-4856-911c-ba4b4176430a
 
-![Harm Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/harm_evidence.mp4)
 
-</details>
 
-### Solvency Evidence
-<details>
-<summary>View Solvency Evidence</summary>
+https://github.com/user-attachments/assets/6680f828-f76f-4f75-94bf-02e868bbcf6d
 
-Solvency evidence proves that the affirmative plan will effectively address the harms identified in the case. This evidence demonstrates the mechanism by which the plan works, shows empirical examples of success, and establishes that the plan is both feasible and effective.
 
-![Solvency Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/solvency_evidence.mp4)
 
-</details>
+https://github.com/user-attachments/assets/927f880b-3555-42af-8a29-dd991d8527d2
 
-### Advantage Evidence
-<details>
-<summary>View General Advantage Evidence</summary>
 
-This section contains general advantage evidence that supports the affirmative's claims about the benefits of their plan. This evidence provides additional support for the positive outcomes that will result from plan implementation.
 
-![Advantage Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_evidence.mp4)
+https://github.com/user-attachments/assets/cc67b15c-277f-414f-92fa-05df8570c1bd
 
-</details>
 
-### Advantage Uniqueness Evidence
-<details>
-<summary>View Advantage Uniqueness Evidence</summary>
 
-Advantage uniqueness evidence demonstrates that the benefits claimed by the affirmative are unique to their plan and will not occur in the status quo. This evidence shows that only through plan implementation will these advantages be realized.
+https://github.com/user-attachments/assets/d558e9c1-69c6-44c1-85ee-c11fc84b6bdc
 
-![Advantage Uniqueness Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_uniqueness_evidence.mp4)
 
-</details>
 
-### Advantage Link Evidence
-<details>
-<summary>View Advantage Link Evidence</summary>
+https://github.com/user-attachments/assets/81fca0f7-774d-4984-bcfe-3de1b693fe2a
 
-Advantage link evidence establishes the causal connection between the affirmative plan and the claimed benefits. This evidence demonstrates how the plan's mechanism directly leads to the positive outcomes described in the advantage.
 
-![Advantage Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_link_evidence.mp4)
 
-</details>
+https://github.com/user-attachments/assets/e7ca4673-f5a4-4b5a-80d1-640f19f135f8
 
-### Advantage Internal Link Evidence
-<details>
-<summary>View Advantage Internal Link Evidence</summary>
 
-Advantage internal link evidence connects the initial effects of the plan to the larger benefits claimed. This evidence shows the chain of causation from plan implementation through intermediate steps to the final positive impacts.
 
-![Advantage Internal Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_internal_link_evidence.mp4)
+https://github.com/user-attachments/assets/984021c1-64ab-495e-b81f-4c7a77927d90
 
-</details>
 
-### Advantage Impact Evidence
-<details>
-<summary>View Advantage Impact Evidence</summary>
 
-Advantage impact evidence demonstrates the significance and magnitude of the benefits that result from the affirmative plan. This evidence establishes why the advantages matter and quantifies their importance in terms of lives saved, economic benefits, or other measurable outcomes.
+https://github.com/user-attachments/assets/a8574d28-bffd-455a-83e6-526615d97d8b
 
-![Advantage Impact Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_impact_evidence.mp4)
 
-</details>
 
-### Advantage 1 Evidence
-<details>
-<summary>View Advantage 1 Complete Evidence Package</summary>
+https://github.com/user-attachments/assets/17701c6a-8635-43c5-b5c7-4cc43e5f462c
 
-#### Advantage 1 Uniqueness Evidence
-Evidence establishing that Advantage 1's benefits are unique to the affirmative plan and will not occur without plan implementation.
 
-![Advantage 1 Uniqueness Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_1_uniqueness_evidence.mp4)
 
-#### Advantage 1 Link Evidence
-Evidence demonstrating the causal connection between the affirmative plan and Advantage 1's claimed benefits.
+https://github.com/user-attachments/assets/9e257085-6908-480e-a5c7-bb9b05a4564f
 
-![Advantage 1 Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_1_link_evidence.mp4)
 
-#### Advantage 1 Internal Link Evidence
-Evidence connecting the plan's initial effects to the larger benefits claimed in Advantage 1.
 
-![Advantage 1 Internal Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_1_internal_link_evidence.mp4)
+https://github.com/user-attachments/assets/19b4236f-9380-4fe2-b1af-2600c8fa3e90
 
-#### Advantage 1 Impact Evidence
-Evidence demonstrating the significance and magnitude of Advantage 1's benefits.
 
-![Advantage 1 Impact Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_1_impact_evidence.mp4)
 
-</details>
+https://github.com/user-attachments/assets/f7bac768-2881-4e48-a77b-2a30d58e30c0
 
-### Advantage 2 Evidence
-<details>
-<summary>View Advantage 2 Complete Evidence Package</summary>
 
-#### Advantage 2 Uniqueness Evidence
-Evidence establishing that Advantage 2's benefits are unique to the affirmative plan and will not occur without plan implementation.
 
-![Advantage 2 Uniqueness Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_2_uniqueness_evidence.mp4)
+https://github.com/user-attachments/assets/b360a43d-222f-44a3-932a-7f8d35fc59b9
 
-#### Advantage 2 Link Evidence
-Evidence demonstrating the causal connection between the affirmative plan and Advantage 2's claimed benefits.
 
-![Advantage 2 Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_2_link_evidence.mp4)
 
-#### Advantage 2 Internal Link Evidence
-Evidence connecting the plan's initial effects to the larger benefits claimed in Advantage 2.
+https://github.com/user-attachments/assets/58b07be1-d1da-4d09-8585-bc7a90690a07
 
-![Advantage 2 Internal Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_2_internal_link_evidence.mp4)
 
-#### Advantage 2 Impact Evidence
-Evidence demonstrating the significance and magnitude of Advantage 2's benefits.
 
-![Advantage 2 Impact Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_2_impact_evidence.mp4)
+https://github.com/user-attachments/assets/b42f6d7f-58fa-435d-9680-47b6d0d06193
 
-</details>
 
-### Advantage 3 Evidence
-<details>
-<summary>View Advantage 3 Complete Evidence Package</summary>
 
-#### Advantage 3 Uniqueness Evidence
-Evidence establishing that Advantage 3's benefits are unique to the affirmative plan and will not occur without plan implementation.
+https://github.com/user-attachments/assets/351ae3c9-efc9-4d1d-bc22-8ad21495a79b
 
-![Advantage 3 Uniqueness Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_3_uniqueness_evidence.mp4)
 
-#### Advantage 3 Link Evidence
-Evidence demonstrating the causal connection between the affirmative plan and Advantage 3's claimed benefits.
 
-![Advantage 3 Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_3_link_evidence.mp4)
+https://github.com/user-attachments/assets/e47c43bb-4afa-48a0-a6d7-2811538564f5
 
-#### Advantage 3 Internal Link Evidence
-Evidence connecting the plan's initial effects to the larger benefits claimed in Advantage 3.
 
-![Advantage 3 Internal Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_3_internal_link_evidence.mp4)
 
-#### Advantage 3 Impact Evidence
-Evidence demonstrating the significance and magnitude of Advantage 3's benefits.
+https://github.com/user-attachments/assets/b3c38f6c-4ff1-40f2-9459-aa7f9152ea54
 
-![Advantage 3 Impact Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/advantage_3_impact_evidence.mp4)
 
-</details>
 
-</details>
+https://github.com/user-attachments/assets/c7076610-2c6e-41bd-86f7-04a9cb436f85
 
-<details>
-<summary><strong>First Negative Constructive (1NC)</strong></summary>
 
-### Negative Introduction
-<details>
-<summary>View Negative Introduction</summary>
 
-The negative introduction establishes the negative team's strategic approach to the debate round. This speech outlines the negative's interpretation of their burden, previews the off-case positions to be presented, and establishes the framework for negative argumentation throughout the round.
+https://github.com/user-attachments/assets/6fdb0e75-f5fc-4a7b-883b-a71fc99f2644
 
-![Negative Introduction](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/negative_introduction.mp4)
 
-</details>
 
-### Topicality Arguments
-<details>
-<summary>View Topicality Arguments</summary>
+https://github.com/user-attachments/assets/3547b7d5-2b4d-4a9a-8cf4-9b6f8c8ce47f
 
-#### Topicality Violation
-The topicality violation establishes that the affirmative plan does not meet the requirements of the resolution. This argument identifies specific ways in which the affirmative has exceeded or failed to meet the bounds of topical action.
 
-![Topicality Violation](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/topicality_violation.mp4)
 
-#### Topicality Interpretation Evidence
-Evidence supporting the negative's interpretation of key terms in the resolution, establishing the proper bounds of topical affirmative action.
+https://github.com/user-attachments/assets/703a9061-3dcb-44c7-9833-ff37e43aba30
 
-![Topicality Interpretation Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/topicality_interpretation_evidence.mp4)
 
-#### Topicality Reasons to Prefer
-Arguments explaining why the negative's interpretation of the resolution should be preferred over the affirmative's interpretation, including standards like limits, ground, and predictability.
 
-![Topicality Reasons to Prefer](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/topicality_reasons_to_prefer.mp4)
+https://github.com/user-attachments/assets/8818df6f-c79d-419b-86c7-6980aa679894
 
-</details>
 
-### Disadvantage Arguments
-<details>
-<summary>View Disadvantage Arguments</summary>
 
-#### Disadvantage Uniqueness Evidence
-Evidence establishing that the disadvantage impact will not occur in the status quo but will be triggered by the affirmative plan.
+https://github.com/user-attachments/assets/040eee60-18c3-4c48-8056-e4d4c9cbb10b
 
-![Disadvantage Uniqueness Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/disadvantage_uniqueness_evidence.mp4)
 
-#### Disadvantage Link Evidence
-Evidence demonstrating that the affirmative plan will trigger the disadvantage through a specific causal mechanism.
 
-![Disadvantage Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/disadvantage_link_evidence.mp4)
+https://github.com/user-attachments/assets/fd923100-9ef9-460b-9e48-908a552cfb01
 
-#### Disadvantage Internal Link Evidence
-Evidence connecting the plan's triggering of the disadvantage to the larger negative consequences claimed.
 
-![Disadvantage Internal Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/disadvantage_internal_link_evidence.mp4)
 
-#### Disadvantage Impact Evidence
-Evidence demonstrating the significance and magnitude of the negative consequences that result from the disadvantage.
+https://github.com/user-attachments/assets/2a4f4134-e239-4813-9649-75f718bbce14
 
-![Disadvantage Impact Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/disadvantage_impact_evidence.mp4)
 
-</details>
 
-### Counterplan Arguments
-<details>
-<summary>View Counterplan Arguments</summary>
+https://github.com/user-attachments/assets/57430c04-2899-413a-aec4-dca2bfd2ac07
 
-#### Counterplan Text
-The specific text of the counterplan, outlining the alternative policy action proposed by the negative team.
 
-![Counterplan Text](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/counterplan_text.mp4)
 
-#### Counterplan Solvency Evidence
-Evidence demonstrating that the counterplan will solve the affirmative's harms as well as or better than the affirmative plan.
+https://github.com/user-attachments/assets/cd9a6fd6-62ea-465a-96b1-95bfc72f1e55
 
-![Counterplan Solvency Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/counterplan_solvency_evidence.mp4)
 
-#### Counterplan Net Benefit Evidence
-Evidence establishing that the counterplan avoids the disadvantages triggered by the affirmative plan while maintaining the same benefits.
 
-![Counterplan Net Benefit Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/counterplan_net_benefit_evidence.mp4)
+https://github.com/user-attachments/assets/7dfddf84-8745-42b6-b94b-c17720bcb70f
 
-</details>
 
-### Kritik Arguments
-<details>
-<summary>View Kritik Arguments</summary>
 
-#### Kritik Link Evidence
-Evidence demonstrating that the affirmative plan, its justifications, or its representations are problematic according to the kritik's theoretical framework.
+https://github.com/user-attachments/assets/5b15ec47-a1aa-4701-ab46-abe75daedb18
 
-![Kritik Link Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/kritik_link_evidence.mp4)
 
-#### Kritik Impact Evidence
-Evidence establishing the significance of the problems identified by the kritik and the negative consequences of affirming the resolution.
 
-![Kritik Impact Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/kritik_impact_evidence.mp4)
+https://github.com/user-attachments/assets/07c639fd-7e03-404d-9f55-b6f77a72c701
 
-#### Kritik Role of Ballot Evidence
-Evidence explaining how the judge should evaluate the debate round according to the kritik's framework and what voting negative accomplishes.
 
-![Kritik Role of Ballot Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/kritik_role_of_ballot_evidence.mp4)
 
-</details>
+https://github.com/user-attachments/assets/1bd1433b-85f8-4b18-aa47-9bba179ff85f
 
-### Theory Arguments
-<details>
-<summary>View Theory Arguments</summary>
 
-#### Theory Violation Argument
-The specific theory violation committed by the affirmative team, such as running an abusive counterplan or violating debate norms.
 
-![Theory Violation Argument](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/theory_violation_argument.mp4)
+https://github.com/user-attachments/assets/99c087fa-cc70-426b-bd8f-d9f03a38003b
 
-#### Theory Interpretation Evidence
-Evidence supporting the negative's interpretation of proper debate theory and practice.
 
-![Theory Interpretation Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/theory_interpretation_evidence.mp4)
 
-#### Theory Reasons to Prefer Argument
-Arguments explaining why the negative's theory interpretation should be preferred, including standards like education, fairness, and competitive equity.
+https://github.com/user-attachments/assets/bf89a4ce-7791-4bfc-8bad-b0e8b330f1fd
 
-![Theory Reasons to Prefer Argument](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/theory_reasons_to_prefer_argument.mp4)
 
-</details>
 
-### On-Case Arguments
-<details>
-<summary>View On-Case Rebuttal Evidence</summary>
+https://github.com/user-attachments/assets/2f81d2bb-5d0b-481e-8494-54f1dbe54cc3
 
-#### On-Case Rebuttal Evidence 1
-Evidence challenging the first major component of the affirmative case, such as inherency, harm, or solvency claims.
 
-![On-Case Rebuttal Evidence 1](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/on_case_rebuttal_evidence_0.mp4)
 
-#### On-Case Rebuttal Evidence 2
-Evidence challenging the second major component of the affirmative case or specific advantage claims.
+https://github.com/user-attachments/assets/5963dd20-df6e-42fb-8490-8f3382bcc8be
 
-![On-Case Rebuttal Evidence 2](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/on_case_rebuttal_evidence_1.mp4)
 
-#### On-Case Rebuttal Evidence 3
-Evidence challenging the third major component of the affirmative case or additional advantage arguments.
 
-![On-Case Rebuttal Evidence 3](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/on_case_rebuttal_evidence_2.mp4)
+https://github.com/user-attachments/assets/98f5dc47-fbee-4fd3-9e0b-47289990da77
 
-</details>
 
-</details>
 
-<details>
-<summary><strong>Second Affirmative Constructive (2AC)</strong></summary>
+https://github.com/user-attachments/assets/da3408ea-f34d-4182-af4c-69f3114c0bc6
 
-### Second Affirmative Constructive Speech
-<details>
-<summary>View 2AC Speech</summary>
 
-The Second Affirmative Constructive is an 8-minute speech that responds to all negative arguments presented in the 1NC while potentially introducing new advantages or evidence. This speech must answer all off-case arguments (disadvantages, counterplans, kritiks, topicality, theory) while rebuilding the affirmative case and extending advantages through the negative's on-case attacks.
 
-![2AC Speech](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/2ac_speech.mp4)
+https://github.com/user-attachments/assets/24fa533a-e4e3-423b-8f03-231f7c641313
 
-</details>
 
-### Second Affirmative Constructive Evidence
-<details>
-<summary>View 2AC Evidence Reading</summary>
 
-This segment focuses specifically on the evidence reading portion of the 2AC, where new cards and evidence are introduced to support affirmative responses to negative arguments. The evidence presented here strengthens the affirmative's position and provides additional support for key arguments.
+https://github.com/user-attachments/assets/7ce77ebe-a58f-4bc8-ac14-ab0ae5922196
 
-![2AC Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/2ac_evidence.mp4)
 
-</details>
 
-</details>
+https://github.com/user-attachments/assets/b7683635-0147-4b3e-a0a6-c6be5e42658a
 
-<details>
-<summary><strong>Second Negative Constructive (2NC)</strong></summary>
 
-### Second Negative Constructive Speech
-<details>
-<summary>View 2NC Speech</summary>
 
-The Second Negative Constructive is an 8-minute speech that extends and develops arguments from the 1NC while responding to the 2AC. This speech typically focuses on 2-3 key negative positions, providing additional evidence and analysis to strengthen the negative's most promising arguments for the final rebuttals.
+https://github.com/user-attachments/assets/3de26ca1-1032-41a4-a6a6-522dbf55859d
 
-![2NC Speech](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/2nc_speech.mp4)
 
-</details>
 
-### Second Negative Constructive Evidence
-<details>
-<summary>View 2NC Evidence Reading</summary>
+https://github.com/user-attachments/assets/e122daf3-f6c0-48e6-a736-107d8cb77a1a
 
-This segment contains the evidence reading portion of the 2NC, where additional cards and evidence are presented to bolster negative arguments. This evidence typically includes impact updates, additional link evidence, or new analytical arguments to strengthen the negative position.
-
-![2NC Evidence](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/2nc_evidence.mp4)
-
-</details>
-
-</details>
-
-<details>
-<summary><strong>First Negative Rebuttal (1NR)</strong></summary>
-
-### First Negative Rebuttal Speech
-<details>
-<summary>View 1NR Speech</summary>
-
-The First Negative Rebuttal is a 5-minute speech that extends key negative arguments from the 1NC and 2NC while responding to 2AC answers. This speech must make strategic choices about which arguments to prioritize, typically focusing on the negative's strongest positions while ensuring adequate coverage of affirmative responses.
-
-![1NR Speech](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/1nr_speech.mp4)
-
-</details>
-
-</details>
-
-<details>
-<summary><strong>First Affirmative Rebuttal (1AR)</strong></summary>
-
-### First Affirmative Rebuttal Speech
-<details>
-<summary>View 1AR Speech</summary>
-
-The First Affirmative Rebuttal is a critical 5-minute speech where the affirmative responds to all negative arguments presented in the 1NC, 2NC, and 1NR. This speech must efficiently address disadvantages, counterplans, kritiks, topicality, and theory arguments while extending key affirmative arguments. The 1AR sets up the strategic choices for the final affirmative speech.
-
-![1AR Speech](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/1ar_speech.mp4)
-
-</details>
-
-</details>
-
-<details>
-<summary><strong>Second Negative Rebuttal (2NR)</strong></summary>
-
-### Second Negative Rebuttal Speech
-<details>
-<summary>View 2NR Speech</summary>
-
-The Second Negative Rebuttal is the final 5-minute negative speech that crystallizes the negative strategy. This speech must make strategic choices about which arguments to extend, typically going for 1-2 key positions while ensuring adequate coverage of affirmative offense. The 2NR provides the negative's clearest path to victory.
-
-![2NR Speech](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/2nr_speech.mp4)
-
-</details>
-
-</details>
-
-<details>
-<summary><strong>Second Affirmative Rebuttal (2AR)</strong></summary>
-
-### Second Affirmative Rebuttal Speech
-<details>
-<summary>View 2AR Speech</summary>
-
-The Second Affirmative Rebuttal is the final 5-minute affirmative speech that crystallizes the debate round. This speech must make strategic choices about which arguments to extend and go for, typically focusing on the strongest affirmative offense while answering the most threatening negative arguments. The 2AR aims to provide a clear path to victory for the affirmative.
-
-![2AR Speech](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/2ar_speech.mp4)
-
-</details>
-
-</details>
-
-<details>
-<summary><strong>Judge Decision</strong></summary>
-
-### Judge Decision
-<details>
-<summary>View Judge Decision</summary>
-
-The judge decision provides the final evaluation of the debate round, explaining which team won and why. This segment analyzes the key arguments, evaluates the evidence presented, and provides reasoning for the final decision based on the arguments made throughout the debate.
-
-![Judge Decision](https://github.com/Hellisotherpeople/DeepDebater/blob/main/speeches/judge_decision.mp4)
-
-</details>
-
-</details>
