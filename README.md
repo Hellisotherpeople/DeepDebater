@@ -16,8 +16,8 @@ https://github.com/user-attachments/assets/0c014917-750b-443b-a24d-32a918c33ae0
 
 
 
-**Affirmative Introduction**
-The affirmative team's opening statement introducing their case, topic interpretation, and roadmap for their constructive speech.
+**Affirmative Introduction/Plan**
+The affirmative team's opening statement introducing their case, the plan, topic interpretation, and roadmap for their constructive speech.
 
 
 
