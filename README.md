@@ -6,6 +6,9 @@ Big WIP but if you can read a jupyter notebook, get an Openai api key, and have 
 
 ## Debate Speeches and Evidence
 
+
+## Debate Speeches and Evidence
+
 This section contains all the generated speeches and evidence from the automated debate system, presented in the exact order of a competitive policy debate round.
 
 ### 1AC (First Affirmative Constructive)
@@ -15,74 +18,70 @@ This section contains all the generated speeches and evidence from the automated
 The First Affirmative Constructive establishes the affirmative case, presenting the problem (inherency and harms), the solution (plan), and the benefits (advantages with solvency).
 
 **Judge Introduction**
-
-
-https://github.com/user-attachments/assets/a1514d7c-ae07-4b4c-93e2-47ef983a1f13
-
-
+Opening remarks from the judge explaining the debate format, evaluation criteria, and expectations for the round.
 
 **Affirmative Introduction**
-https://github.com/user-attachments/assets/dcee3d32-1167-4f17-9ef7-2e023d47051e
+The affirmative team's opening statement introducing their case, topic interpretation, and roadmap for their constructive speech.
 
 **Inherency Evidence**
-https://github.com/user-attachments/assets/5d99f425-0082-4a25-ba7d-8c20925cd587
+Evidence demonstrating that the current system is failing to address the problem and that the status quo is insufficient.
 
 **Harm Evidence**
-https://github.com/user-attachments/assets/876d6f5a-9b6f-4a8a-8c0b-4c4397718e55
+Evidence establishing the significant problems and negative consequences that exist under the current system.
 
 **Advantage Uniqueness Evidence**
-https://github.com/user-attachments/assets/cc67b15c-277f-414f-92fa-05df8570c1bd
+Evidence showing that the benefits claimed by the affirmative are not currently being achieved in the status quo.
 
 **Advantage Link Evidence**
-https://github.com/user-attachments/assets/1a8a5cd5-8d45-4856-911c-ba4b4176430a
+Evidence demonstrating how the affirmative plan directly causes or enables the claimed advantages.
 
 **Advantage Internal Link Evidence**
-https://github.com/user-attachments/assets/6680f828-f76f-4f75-94bf-02e868bbcf6d
+Evidence connecting the plan's mechanism to the intermediate steps that lead to the final impact.
 
 **Advantage Impact Evidence**
-https://github.com/user-attachments/assets/927f880b-3555-42af-8a29-dd991d8527d2
+Evidence establishing the magnitude, probability, and timeframe of the positive consequences from the affirmative plan.
 
 **Advantage Evidence**
-https://github.com/user-attachments/assets/79acacf0-7481-4aa5-bd53-3f2f9073fd6c
+General advantage evidence supporting the affirmative's benefit claims.
 
 **Advantage 1 Uniqueness Evidence**
-https://github.com/user-attachments/assets/984021c1-64ab-495e-b81f-4c7a77927d90
+Evidence showing that the first advantage is not currently being achieved in the status quo.
 
 **Advantage 1 Link Evidence**
-https://github.com/user-attachments/assets/d558e9c1-69c6-44c1-85ee-c11fc84b6bdc
+Evidence demonstrating how the plan causes or enables the first advantage.
 
 **Advantage 1 Internal Link Evidence**
-https://github.com/user-attachments/assets/81fca0f7-774d-4984-bcfe-3de1b693fe2a
+Evidence connecting the plan to the intermediate steps leading to the first advantage's impact.
 
 **Advantage 1 Impact Evidence**
-https://github.com/user-attachments/assets/e7ca4673-f5a4-4b5a-80d1-640f19f135f8
+Evidence establishing the significance and consequences of the first advantage.
 
 **Advantage 2 Uniqueness Evidence**
-https://github.com/user-attachments/assets/19b4236f-9380-4fe2-b1af-2600c8fa3e90
+Evidence showing that the second advantage is not currently being achieved in the status quo.
 
 **Advantage 2 Link Evidence**
-https://github.com/user-attachments/assets/a8574d28-bffd-455a-83e6-526615d97d8b
+Evidence demonstrating how the plan causes or enables the second advantage.
 
 **Advantage 2 Internal Link Evidence**
-https://github.com/user-attachments/assets/17701c6a-8635-43c5-b5c7-4cc43e5f462c
+Evidence connecting the plan to the intermediate steps leading to the second advantage's impact.
 
 **Advantage 2 Impact Evidence**
-https://github.com/user-attachments/assets/9e257085-6908-480e-a5c7-bb9b05a4564f
+Evidence establishing the significance and consequences of the second advantage.
 
 **Advantage 3 Uniqueness Evidence**
-https://github.com/user-attachments/assets/b42f6d7f-58fa-435d-9680-47b6d0d06193
+Evidence showing that the third advantage is not currently being achieved in the status quo.
 
 **Advantage 3 Link Evidence**
-https://github.com/user-attachments/assets/f7bac768-2881-4e48-a77b-2a30d58e30c0
+Evidence demonstrating how the plan causes or enables the third advantage.
 
 **Advantage 3 Internal Link Evidence**
-https://github.com/user-attachments/assets/b360a43d-222f-44a3-932a-7f8d35fc59b9
+Evidence connecting the plan to the intermediate steps leading to the third advantage's impact.
 
 **Advantage 3 Impact Evidence**
-https://github.com/user-attachments/assets/58b07be1-d1da-4d09-8585-bc7a90690a07
+Evidence establishing the significance and consequences of the third advantage.
 
 **Solvency Evidence**
-https://github.com/user-attachments/assets/351ae3c9-efc9-4d1d-bc22-8ad21495a79b
+Evidence demonstrating that the affirmative plan will effectively solve the problems identified and achieve the claimed advantages.
 
 </details>
 
@@ -93,64 +92,64 @@ https://github.com/user-attachments/assets/351ae3c9-efc9-4d1d-bc22-8ad21495a79b
 The First Negative Constructive presents the negative strategy, typically including topicality arguments, theory arguments, disadvantages, counterplans, kritiks, and on-case attacks against the affirmative advantages.
 
 **Negative Introduction**
-https://github.com/user-attachments/assets/e47c43bb-4afa-48a0-a6d7-2811538564f5
+The negative team's opening statement outlining their strategy and approach to refuting the affirmative case.
 
 **Topicality Interpretation Evidence**
-https://github.com/user-attachments/assets/b3c38f6c-4ff1-40f2-9459-aa7f9152ea54
+Evidence providing the negative's interpretation of key terms in the resolution and establishing definitional standards.
 
 **Topicality Violation**
-https://github.com/user-attachments/assets/c7076610-2c6e-41bd-86f7-04a9cb436f85
+Argument demonstrating how the affirmative plan fails to meet the negative's interpretation of the resolution.
 
 **Topicality Reasons to Prefer**
-https://github.com/user-attachments/assets/6fdb0e75-f5fc-4a7b-883b-a71fc99f2644
+Arguments explaining why the negative's interpretation should be preferred over the affirmative's interpretation.
 
 **Theory Interpretation Evidence**
-https://github.com/user-attachments/assets/3547b7d5-2b4d-4a9a-8cf4-9b6f8c8ce47f
+Evidence supporting the negative's theoretical framework for evaluating debate practices and norms.
 
 **Theory Violation Argument**
-https://github.com/user-attachments/assets/703a9061-3dcb-44c7-9833-ff37e43aba30
+Argument claiming that the affirmative has violated established debate theory or competitive equity principles.
 
 **Theory Reasons to Prefer Argument**
-https://github.com/user-attachments/assets/8818df6f-c79d-419b-86c7-6980aa679894
+Arguments explaining why the negative's theoretical position should be accepted by the judge.
 
 **Disadvantage Uniqueness Evidence**
-https://github.com/user-attachments/assets/57430c04-2899-413a-aec4-dca2bfd2ac07
+Evidence showing that the negative consequences will not occur in the status quo but will result from the plan.
 
 **Disadvantage Link Evidence**
-https://github.com/user-attachments/assets/040eee60-18c3-4c48-8056-e4d4c9cbb10b
+Evidence demonstrating how the affirmative plan directly causes or increases the risk of the disadvantage.
 
 **Disadvantage Internal Link Evidence**
-https://github.com/user-attachments/assets/fd923100-9ef9-460b-9e48-908a552cfb01
+Evidence connecting the plan's effects to the chain of events leading to the disadvantage impact.
 
 **Disadvantage Impact Evidence**
-https://github.com/user-attachments/assets/2a4f4134-e239-4813-9649-75f718bbce14
+Evidence establishing the magnitude, probability, and timeframe of the negative consequences from the plan.
 
 **Counterplan Text**
-https://github.com/user-attachments/assets/cd9a6fd6-62ea-465a-96b1-95bfc72f1e55
+The specific text and mechanism of the negative's alternative policy proposal.
 
 **Counterplan Solvency Evidence**
-https://github.com/user-attachments/assets/7dfddf84-8745-42b6-b94b-c17720bcb70f
+Evidence demonstrating that the counterplan can achieve the affirmative's benefits without the plan.
 
 **Counterplan Net Benefit Evidence**
-https://github.com/user-attachments/assets/5b15ec47-a1aa-4701-ab46-abe75daedb18
+Evidence showing that the counterplan avoids the disadvantages or problems associated with the affirmative plan.
 
 **Kritik Link Evidence**
-https://github.com/user-attachments/assets/07c639fd-7e03-404d-9f55-b6f77a72c701
+Evidence connecting the affirmative's assumptions, language, or methodology to problematic frameworks or ideologies.
 
 **Kritik Impact Evidence**
-https://github.com/user-attachments/assets/1bd1433b-85f8-4b18-aa47-9bba179ff85f
+Evidence establishing the negative consequences of the affirmative's approach or worldview.
 
 **Kritik Role of Ballot Evidence**
-https://github.com/user-attachments/assets/99c087fa-cc70-426b-bd8f-d9f03a38003b
+Evidence explaining how the judge should evaluate the debate and what voting for the negative would accomplish.
 
 **On Case Rebuttal Evidence 0**
-https://github.com/user-attachments/assets/bf89a4ce-7791-4bfc-8bad-b0e8b330f1fd
+Evidence directly challenging the first set of affirmative advantage claims or solvency arguments.
 
 **On Case Rebuttal Evidence 1**
-https://github.com/user-attachments/assets/2f81d2bb-5d0b-481e-8494-54f1dbe54cc3
+Evidence directly challenging the second set of affirmative advantage claims or solvency arguments.
 
 **On Case Rebuttal Evidence 2**
-https://github.com/user-attachments/assets/5963dd20-df6e-42fb-8490-8f3382bcc8be
+Evidence directly challenging the third set of affirmative advantage claims or solvency arguments.
 
 </details>
 
@@ -161,10 +160,10 @@ https://github.com/user-attachments/assets/5963dd20-df6e-42fb-8490-8f3382bcc8be
 The Second Affirmative Constructive responds to all negative arguments from the 1NC, extending and defending the affirmative case while answering topicality, theory, disadvantages, counterplans, and kritiks.
 
 **2AC Evidence**
-https://github.com/user-attachments/assets/98f5dc47-fbee-4fd3-9e0b-47289990da77
+Comprehensive evidence package supporting the affirmative's responses to all negative arguments and extensions of case arguments.
 
 **2AC Speech**
-https://github.com/user-attachments/assets/da3408ea-f34d-4182-af4c-69f3114c0bc6
+The complete second affirmative constructive speech responding to the 1NC and rebuilding the affirmative case.
 
 </details>
 
@@ -175,7 +174,7 @@ https://github.com/user-attachments/assets/da3408ea-f34d-4182-af4c-69f3114c0bc6
 The Second Negative Constructive extends and develops the most strategic negative arguments from the 1NC, typically focusing on 2-3 key positions while going for more evidence and analysis.
 
 **2NC Evidence**
-https://github.com/user-attachments/assets/24fa533a-e4e3-423b-8f03-231f7c641313
+Evidence package supporting the negative's strategic choices and extensions in the second constructive.
 
 *WIP - Speech too large to upload*
 
@@ -188,7 +187,7 @@ https://github.com/user-attachments/assets/24fa533a-e4e3-423b-8f03-231f7c641313
 The First Negative Rebuttal works in conjunction with the 2NC to extend negative arguments, typically covering different positions or providing additional coverage on the same arguments as the 2NC.
 
 **1NR Speech**
-https://github.com/user-attachments/assets/7ce77ebe-a58f-4bc8-ac14-ab0ae5922196
+The complete first negative rebuttal speech extending and developing negative arguments in coordination with the 2NC.
 
 </details>
 
@@ -209,7 +208,7 @@ The First Affirmative Rebuttal is the most challenging speech in debate, requiri
 The Second Negative Rebuttal is the negative's final speech, focusing on 1-2 key arguments that they believe can win them the round, providing final analysis and impact comparison.
 
 **2NR Speech**
-https://github.com/user-attachments/assets/b7683635-0147-4b3e-a0a6-c6be5e42658a
+The complete second negative rebuttal speech presenting the negative's closing arguments and voting issues.
 
 </details>
 
@@ -220,7 +219,7 @@ https://github.com/user-attachments/assets/b7683635-0147-4b3e-a0a6-c6be5e42658a
 The Second Affirmative Rebuttal is the final speech of the debate, where the affirmative must respond to the 2NR's key arguments and explain why the affirmative should win the round.
 
 **2AR Speech**
-https://github.com/user-attachments/assets/3de26ca1-1032-41a4-a6a6-522dbf55859d
+The complete second affirmative rebuttal speech presenting the affirmative's final arguments and reasons to vote affirmative.
 
 </details>
 
@@ -231,6 +230,6 @@ https://github.com/user-attachments/assets/3de26ca1-1032-41a4-a6a6-522dbf55859d
 The judge's final decision and reasoning for who won the debate round, including analysis of key arguments and voting issues.
 
 **Judge Decision**
-https://github.com/user-attachments/assets/e122daf3-f6c0-48e6-a736-107d8cb77a1a
+The complete judge's decision with detailed reasoning, argument evaluation, and explanation of the final vote.
 
 </details>
