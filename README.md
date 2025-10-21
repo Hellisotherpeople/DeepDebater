@@ -10,10 +10,18 @@ This section contains all the generated speeches and evidence from the automated
 
 **Judge Introduction**
 Opening remarks from the judge explaining the debate format, evaluation criteria, and expectations for the round.
-[judge_intro.mp3](https://github.com/user-attachments/files/23024582/judge_intro.mp3)
+
+
+https://github.com/user-attachments/assets/0c014917-750b-443b-a24d-32a918c33ae0
+
+
 
 **Affirmative Introduction**
 The affirmative team's opening statement introducing their case, topic interpretation, and roadmap for their constructive speech.
+
+
+https://github.com/user-attachments/assets/69ad0b8b-6154-4958-9159-c7d381720bc3
+
 
 ### 1AC (First Affirmative Constructive)
 <details>
@@ -24,23 +32,51 @@ The First Affirmative Constructive establishes the affirmative case, presenting 
 **Inherency Evidence**
 Evidence demonstrating that the current system is failing to address the problem and that the status quo is insufficient.
 
+
+https://github.com/user-attachments/assets/ac138005-b380-4720-bf46-4d194be19bea
+
+
 **Harm Evidence**
 Evidence establishing the significant problems and negative consequences that exist under the current system.
+
+
+https://github.com/user-attachments/assets/90e659dc-55ee-4d3d-819f-c92406eb1717
+
 
 **Advantage 1 Uniqueness Evidence**
 Evidence showing that the first advantage is not currently being achieved in the status quo.
 
+
+https://github.com/user-attachments/assets/bce7aa17-9b41-4c04-9f4b-6f88e39328ff
+
+
 **Advantage 1 Link Evidence**
 Evidence demonstrating how the plan causes or enables the first advantage.
+
+
+https://github.com/user-attachments/assets/3b3ed034-0b6c-47e3-a5b3-1933d243d7cf
+
 
 **Advantage 1 Internal Link Evidence**
 Evidence connecting the plan to the intermediate steps leading to the first advantage's impact.
 
+
+https://github.com/user-attachments/assets/d7d3d747-c523-44b2-9779-f42634f39808
+
+
 **Advantage 1 Impact Evidence**
 Evidence establishing the significance and consequences of the first advantage.
 
+
+https://github.com/user-attachments/assets/d0d51eb8-ca41-496c-8432-612c0d94c1b8
+
+
 **Advantage 2 Uniqueness Evidence**
 Evidence showing that the second advantage is not currently being achieved in the status quo.
+
+
+https://github.com/user-attachments/assets/d1cb7e2a-6f93-4c41-81f9-c492081451c4
+
 
 **Advantage 2 Link Evidence**
 Evidence demonstrating how the plan causes or enables the second advantage.
