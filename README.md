@@ -67,10 +67,19 @@ Evidence demonstrating that the affirmative plan will effectively solve the prob
 
 </details>
 
+### CX of 1AC (Cross Examination of First Affirmative Constructive)
+<details>
+<summary>Click to expand CX of 1AC content</summary>
+
+The negative team's cross examination of the first affirmative speaker, focusing on clarifying plan details, exposing weaknesses in the case, and setting up negative arguments.
+
+**CX of 1AC Transcript**
+Complete transcript of the cross examination period with questions and answers between the negative and affirmative teams.
+
+</details>
 
 **Negative Introduction**
 The negative team's opening statement outlining their strategy and approach to refuting the affirmative case.
-
 
 ### 1NC (First Negative Constructive)
 <details>
@@ -137,6 +146,17 @@ Evidence directly challenging the third set of affirmative advantage claims or s
 
 </details>
 
+### CX of 1NC (Cross Examination of First Negative Constructive)
+<details>
+<summary>Click to expand CX of 1NC content</summary>
+
+The affirmative team's cross examination of the first negative speaker, focusing on clarifying negative positions, exposing contradictions, and gathering information for the 2AC.
+
+**CX of 1NC Transcript**
+Complete transcript of the cross examination period with questions and answers between the affirmative and negative teams.
+
+</details>
+
 ### 2AC (Second Affirmative Constructive)
 <details>
 <summary>Click to expand 2AC content</summary>
@@ -148,6 +168,17 @@ Comprehensive evidence package supporting the affirmative's responses to all neg
 
 **2AC Speech**
 The complete second affirmative constructive speech responding to the 1NC and rebuilding the affirmative case.
+
+</details>
+
+### CX of 2AC (Cross Examination of Second Affirmative Constructive)
+<details>
+<summary>Click to expand CX of 2AC content</summary>
+
+The negative team's cross examination of the second affirmative speaker, focusing on challenging affirmative responses and setting up arguments for the 2NC/1NR.
+
+**CX of 2AC Transcript**
+Complete transcript of the cross examination period with questions and answers between the negative and affirmative teams.
 
 </details>
 
@@ -172,6 +203,17 @@ The First Negative Rebuttal works in conjunction with the 2NC to extend negative
 
 **1NR Speech**
 The complete first negative rebuttal speech extending and developing negative arguments in coordination with the 2NC.
+
+</details>
+
+### CX of 2NC/1NR (Cross Examination of Second Negative Constructive/First Negative Rebuttal)
+<details>
+<summary>Click to expand CX of 2NC/1NR content</summary>
+
+The affirmative team's cross examination of the second negative speaker, focusing on the arguments extended in the 2NC and 1NR to prepare for the 1AR.
+
+**CX of 2NC/1NR Transcript**
+Complete transcript of the cross examination period with questions and answers between the affirmative and negative teams.
 
 </details>
 
