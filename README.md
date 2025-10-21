@@ -10,6 +10,7 @@ This section contains all the generated speeches and evidence from the automated
 
 **Judge Introduction**
 Opening remarks from the judge explaining the debate format, evaluation criteria, and expectations for the round.
+[judge_intro.mp3](https://github.com/user-attachments/files/23024582/judge_intro.mp3)
 
 **Affirmative Introduction**
 The affirmative team's opening statement introducing their case, topic interpretation, and roadmap for their constructive speech.
