@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from dataclasses import dataclass, field
 from typing import Callable
 
@@ -120,9 +121,38 @@ class Debate:
     def _tts(self, text: str, filename: str, voice: str):
         """Generate TTS if enabled."""
         if self.config.enable_tts:
-            import os
             path = os.path.join(self.config.output_dir, filename)
             generate_speech(self.config, strip_html(text), path, voice)
+
+    def _save_docx(self, step_name: str, html: str):
+        """Save a speech/step to a .docx file."""
+        if not html:
+            return
+        try:
+            from deep_debater.export import export_speech_to_docx
+            os.makedirs(self.config.output_dir, exist_ok=True)
+            safe = step_name.replace(" ", "_").replace("/", "-").lower()
+            path = os.path.join(self.config.output_dir, f"{safe}.docx")
+            export_speech_to_docx(step_name, html, path)
+            self._emit("file_saved", path=path, step=step_name)
+        except Exception as e:
+            self._emit("warning", message=f"Could not save docx for {step_name}: {e}")
+
+    def save_full_transcript(self):
+        """Save the complete debate transcript as a single .docx."""
+        try:
+            from deep_debater.export import export_debate_to_docx
+            os.makedirs(self.config.output_dir, exist_ok=True)
+            path = os.path.join(self.config.output_dir, "full_debate_transcript.docx")
+            export_debate_to_docx(
+                self.state.full_transcript, path,
+                title=f"Debate: {self.state.topic}",
+            )
+            self._emit("file_saved", path=path, step="Full Transcript")
+            return path
+        except Exception as e:
+            self._emit("warning", message=f"Could not save full transcript: {e}")
+            return None
 
     # ------------------------------------------------------------------
     # Individual step methods (can be called independently)
@@ -134,6 +164,7 @@ class Debate:
         self.state.debate_case = evidence.build_1ac(
             self.config, self.state.topic, on_event=self.on_event
         )
+        self._save_docx("1AC", self.state.debate_case)
         self.state.completed_steps.append("1AC")
         self._emit("step_complete", step="1AC")
 
@@ -146,6 +177,7 @@ class Debate:
         )
         self.state.cx_1ac_html = html
         self.state.debate_case += html
+        self._save_docx("CX of 1AC", html)
         self.state.completed_steps.append("CX of 1AC")
         self._emit("step_complete", step="CX of 1AC")
 
@@ -155,6 +187,7 @@ class Debate:
         self.state.neg_html, self.state.negative_positions = negative.build_1nc(
             self.config, self.state.debate_case, on_event=self.on_event
         )
+        self._save_docx("1NC", self.state.neg_html)
         self.state.completed_steps.append("1NC")
         self._emit("step_complete", step="1NC")
 
@@ -167,6 +200,7 @@ class Debate:
         )
         self.state.cx_1nc_html = html
         self.state.neg_html += html
+        self._save_docx("CX of 1NC", html)
         self.state.completed_steps.append("CX of 1NC")
         self._emit("step_complete", step="CX of 1NC")
 
@@ -182,6 +216,7 @@ class Debate:
             self.config, self.state.debate_case, self.state.neg_html, twoac_html, self.on_event,
         )
         self.state.twoac_html = twoac_html
+        self._save_docx("2AC", twoac_html)
         self.state.completed_steps.append("2AC")
         self._emit("step_complete", step="2AC")
 
@@ -195,6 +230,7 @@ class Debate:
         )
         self.state.cx_2ac_html = html
         self.state.twoac_html += html
+        self._save_docx("CX of 2AC", html)
         self.state.completed_steps.append("CX of 2AC")
         self._emit("step_complete", step="CX of 2AC")
 
@@ -212,6 +248,7 @@ class Debate:
             self.state.twoac_html, twonc_html, self.on_event,
         )
         self.state.twonc_html = twonc_html
+        self._save_docx("2NC", twonc_html)
         self.state.completed_steps.append("2NC")
         self._emit("step_complete", step="2NC")
 
@@ -225,6 +262,7 @@ class Debate:
         )
         self.state.cx_2nc_html = html
         self.state.twonc_html += html
+        self._save_docx("CX of 2NC", html)
         self.state.completed_steps.append("CX of 2NC")
         self._emit("step_complete", step="CX of 2NC")
 
@@ -236,6 +274,7 @@ class Debate:
             self.config, self.state.debate_case, self.state.neg_html,
             self.state.twoac_html, self.state.twonc_html, self.on_event,
         )
+        self._save_docx("1NR", self.state.onenr_html)
         self.state.completed_steps.append("1NR")
         self._emit("step_complete", step="1NR")
 
@@ -248,6 +287,7 @@ class Debate:
             self.state.twoac_html, self.state.twonc_html,
             self.state.onenr_html, self.on_event,
         )
+        self._save_docx("1AR", self.state.onear_html)
         self.state.completed_steps.append("1AR")
         self._emit("step_complete", step="1AR")
 
@@ -260,6 +300,7 @@ class Debate:
             self.state.twoac_html, self.state.twonc_html,
             self.state.onenr_html, self.state.onear_html, self.on_event,
         )
+        self._save_docx("2NR", self.state.twonr_html)
         self.state.completed_steps.append("2NR")
         self._emit("step_complete", step="2NR")
 
@@ -273,6 +314,7 @@ class Debate:
             self.state.onenr_html, self.state.onear_html,
             self.state.twonr_html, self.on_event,
         )
+        self._save_docx("2AR", self.state.twoar_html)
         self.state.completed_steps.append("2AR")
         self._emit("step_complete", step="2AR")
 
@@ -286,6 +328,7 @@ class Debate:
             self.state.onenr_html, self.state.onear_html,
             self.state.twonr_html, self.state.twoar_html, self.on_event,
         )
+        self._save_docx("Judge Decision", self.state.judge_html)
         self.state.completed_steps.append("Judge Decision")
         self._emit("step_complete", step="Judge Decision")
 
@@ -308,4 +351,5 @@ class Debate:
         self.build_2nr()
         self.build_2ar()
         self.judge()
+        self.save_full_transcript()
         return self.state

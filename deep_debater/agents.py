@@ -88,9 +88,11 @@ def run_evidence_search(
     )
 
     iterations = 0
+    rejections = 0
+    max_rejections = max_iterations * 3 + 2  # give up after too many rejections
 
     def speaker_selection(last_speaker: Agent, groupchat: GroupChat):
-        nonlocal iterations
+        nonlocal iterations, rejections
         messages = groupchat.messages
         if len(messages) <= 1:
             return argument_evaluator
@@ -105,6 +107,10 @@ def run_evidence_search(
                     on_event({"type": "evidence_found", "iteration": iterations})
                 if iterations >= max_iterations:
                     return None
+            else:
+                rejections += 1
+                if rejections >= max_rejections:
+                    return None  # give up — can't find acceptable evidence
             return debate_search_agent
         if last_speaker is argument_evaluator:
             return debate_search_agent
