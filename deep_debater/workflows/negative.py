@@ -1,4 +1,4 @@
-"""1NC construction: off-case positions, topicality, theory, DA, CP, K, on-case."""
+"""1NC construction: strategically chosen off-case positions + on-case rebuttals."""
 
 from __future__ import annotations
 
@@ -43,8 +43,8 @@ def generate_negative_offcase(config, debate_case, on_event=None) -> dict:
         generator_prompt=prompts.neg_offcase_generator(),
         reviewer_prompt=prompts.neg_offcase_reviewer(),
         context_message=(
-            f"Given the following affirmative debate case, generate negative "
-            f"off-case positions.\n{debate_case}"
+            f"Given the following affirmative debate case, choose 1-4 off-case "
+            f"positions that give the negative the best chance to win.\n{debate_case}"
         ),
         response_model=NegativePositions,
         max_iterations=3,
@@ -54,18 +54,12 @@ def generate_negative_offcase(config, debate_case, on_event=None) -> dict:
 
 
 def extract_titles(negative_case: dict) -> list[str]:
-    titles = []
-    for key in ("topicality", "theory"):
-        if key in negative_case and negative_case[key]:
-            titles.append(negative_case[key]["title"])
-    for key in ("disadvantages", "counterplans", "kritiks"):
-        for item in negative_case.get(key, []):
-            titles.append(item["title"])
-    return titles
+    """Extract position titles from a NegativePositions dict."""
+    return [p["title"] for p in negative_case.get("positions", [])]
 
 
 # ---------------------------------------------------------------------------
-# Topicality
+# Topicality evidence builders
 # ---------------------------------------------------------------------------
 
 def add_topicality_interpretation(config, debate_case, neg_html, on_event=None):
@@ -123,7 +117,7 @@ def add_topicality_reasons_to_prefer(config, debate_case, neg_html, on_event=Non
 
 
 # ---------------------------------------------------------------------------
-# Theory
+# Theory evidence builders
 # ---------------------------------------------------------------------------
 
 def add_theory_interpretation(config, debate_case, neg_html, on_event=None):
@@ -181,19 +175,15 @@ def add_theory_reasons_to_prefer(config, debate_case, neg_html, on_event=None):
 
 
 # ---------------------------------------------------------------------------
-# Disadvantage
+# Disadvantage evidence builders
 # ---------------------------------------------------------------------------
-
-def _da_ctx(debate_case, neg_html, extra):
-    return f"{debate_case}\n\n{neg_html}\n\nAssume that the current year is 2022.\n{extra}"
-
 
 def add_da_uniqueness(config, debate_case, neg_html, on_event=None):
     result = run_evidence_search(
         config=config,
         evaluator_prompt=prompts.da_uniqueness_evaluator(),
         eval_agent_prompt=prompts.da_uniqueness_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best disadvantage uniqueness evidence."),
         response_model=SingleCardResult,
         on_event=on_event,
@@ -212,7 +202,7 @@ def add_da_link(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.da_link_evaluator(),
         eval_agent_prompt=prompts.da_link_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best disadvantage link evidence."),
         response_model=SingleCardResult,
         on_event=on_event,
@@ -231,7 +221,7 @@ def add_da_internal_link(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.da_internal_link_evaluator(),
         eval_agent_prompt=prompts.da_internal_link_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best disadvantage internal link evidence."),
         response_model=SingleCardResult,
         on_event=on_event,
@@ -250,7 +240,7 @@ def add_da_impact(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.da_impact_evaluator(),
         eval_agent_prompt=prompts.da_impact_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best disadvantage impact evidence."),
         response_model=SingleCardResult,
         on_event=on_event,
@@ -265,7 +255,7 @@ def add_da_impact(config, debate_case, neg_html, on_event=None):
 
 
 # ---------------------------------------------------------------------------
-# Counterplan
+# Counterplan evidence builders
 # ---------------------------------------------------------------------------
 
 def add_cp_text(config, debate_case, neg_html, on_event=None):
@@ -273,7 +263,7 @@ def add_cp_text(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.cp_text_evaluator(),
         eval_agent_prompt=prompts.cp_text_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best counterplan text."),
         response_model=CounterplanResult,
         on_event=on_event,
@@ -288,7 +278,7 @@ def add_cp_solvency(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.cp_solvency_evaluator(),
         eval_agent_prompt=prompts.cp_solvency_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best counterplan solvency evidence."),
         response_model=SingleCardResult,
         on_event=on_event,
@@ -307,7 +297,7 @@ def add_cp_net_benefit(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.cp_net_benefit_evaluator(),
         eval_agent_prompt=prompts.cp_net_benefit_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best counterplan net benefit evidence."),
         response_model=SingleCardResult,
         max_iterations=1,
@@ -323,7 +313,7 @@ def add_cp_net_benefit(config, debate_case, neg_html, on_event=None):
 
 
 # ---------------------------------------------------------------------------
-# Kritik
+# Kritik evidence builders
 # ---------------------------------------------------------------------------
 
 def add_kritik_link(config, debate_case, neg_html, on_event=None):
@@ -331,7 +321,7 @@ def add_kritik_link(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.kritik_link_evaluator(),
         eval_agent_prompt=prompts.kritik_link_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best kritik link evidence."),
         response_model=SingleCardResult,
         on_event=on_event,
@@ -350,7 +340,7 @@ def add_kritik_impact(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.kritik_impact_evaluator(),
         eval_agent_prompt=prompts.kritik_impact_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best kritik impact evidence."),
         response_model=SingleCardResult,
         on_event=on_event,
@@ -369,7 +359,7 @@ def add_kritik_rotb(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.kritik_rotb_evaluator(),
         eval_agent_prompt=prompts.kritik_rotb_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best kritik role of the ballot evidence."),
         response_model=SingleCardResult,
         on_event=on_event,
@@ -392,7 +382,7 @@ def add_on_case_rebuttal(config, debate_case, neg_html, on_event=None):
         config=config,
         evaluator_prompt=prompts.on_case_evaluator(),
         eval_agent_prompt=prompts.on_case_eval(),
-        context_message=_da_ctx(debate_case, neg_html,
+        context_message=_neg_ctx(debate_case, neg_html,
             "Find the best on-case rebuttal evidence. "
             "Do NOT select a card already refuted."),
         response_model=SingleCardResult,
@@ -408,11 +398,94 @@ def add_on_case_rebuttal(config, debate_case, neg_html, on_event=None):
 
 
 # ---------------------------------------------------------------------------
+# Position-type dispatchers
+# ---------------------------------------------------------------------------
+
+def _build_topicality(config, debate_case, neg_html, pos, on_event, _retry):
+    """Build a topicality position: interpretation, violation, reasons to prefer."""
+    neg_html += (
+        f"<h2>Topicality: {pos['title']}</h2>\n"
+        f"<p>{pos.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>"
+    )
+    neg_html, _, _ = _retry(add_topicality_interpretation, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_topicality_violation, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_topicality_reasons_to_prefer, config, debate_case, neg_html, on_event)
+    return neg_html
+
+
+def _build_theory(config, debate_case, neg_html, pos, on_event, _retry):
+    """Build a theory position: interpretation, violation, reasons to prefer."""
+    neg_html += (
+        f"<h2>Theory: {pos['title']}</h2>\n"
+        f"<p>{pos.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>"
+    )
+    neg_html, _, _ = _retry(add_theory_interpretation, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_theory_violation, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_theory_reasons_to_prefer, config, debate_case, neg_html, on_event)
+    return neg_html
+
+
+def _build_disadvantage(config, debate_case, neg_html, pos, on_event, _retry):
+    """Build a DA: uniqueness, link, internal link, impact."""
+    neg_html += (
+        f"<h2>Disadvantage: {pos['title']}</h2>\n"
+        f"<p>{pos.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>"
+    )
+    neg_html, _ = _retry(add_da_uniqueness, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_da_link, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_da_internal_link, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_da_impact, config, debate_case, neg_html, on_event)
+    return neg_html
+
+
+def _build_counterplan(config, debate_case, neg_html, pos, on_event, _retry):
+    """Build a CP: text, solvency, net benefit."""
+    cp_text = pos.get("counterplan_text", "")
+    neg_html += (
+        f"<h2>Counterplan: {pos['title']}</h2>\n"
+        f"<p>{pos.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>\n"
+        f"<h3>Counterplan Text</h3>\n<p>{cp_text}</p>"
+    )
+    neg_html, _ = _retry(add_cp_solvency, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_cp_net_benefit, config, debate_case, neg_html, on_event)
+    return neg_html
+
+
+def _build_kritik(config, debate_case, neg_html, pos, on_event, _retry):
+    """Build a K: link, impact, role of the ballot."""
+    alt_text = pos.get("alternative_text", "")
+    neg_html += (
+        f"<h2>Kritik: {pos['title']}</h2>\n"
+        f"<p>{pos.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>\n"
+        f"<p><strong>Thus the Alternative:</strong> {alt_text}</p>"
+    )
+    neg_html, _ = _retry(add_kritik_link, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_kritik_impact, config, debate_case, neg_html, on_event)
+    neg_html, _ = _retry(add_kritik_rotb, config, debate_case, neg_html, on_event)
+    return neg_html
+
+
+_POSITION_BUILDERS = {
+    "topicality": _build_topicality,
+    "theory": _build_theory,
+    "disadvantage": _build_disadvantage,
+    "counterplan": _build_counterplan,
+    "kritik": _build_kritik,
+}
+
+
+# ---------------------------------------------------------------------------
 # Build full 1NC
 # ---------------------------------------------------------------------------
 
 def build_1nc(config: DebateConfig, debate_case: str, on_event: Callable | None = None) -> tuple[str, dict]:
-    """Build the complete 1NC. Returns (negative_case_html, negative_positions_dict)."""
+    """Build the complete 1NC.
+
+    The negative gets full strategic freedom — it chooses 1-4 off-case
+    positions of any type, then on-case rebuttals are appended.
+
+    Returns (negative_case_html, negative_positions_dict).
+    """
 
     def _emit(msg):
         if on_event:
@@ -427,54 +500,26 @@ def build_1nc(config: DebateConfig, debate_case: str, on_event: Callable | None 
                 last_exc = e
         raise last_exc
 
-    _emit("Generating negative off-case positions...")
+    _emit("Generating negative strategy...")
     neg_case = _retry(generate_negative_offcase, config, debate_case, on_event)
     neg_html = ""
 
-    # Topicality
-    t = neg_case.get("topicality", {})
-    if t and t.get("title"):
-        _emit("Building topicality...")
-        neg_html += f"<h2>{t['title']}</h2>\n<p>{t.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>"
-        neg_html, _, _ = _retry(add_topicality_interpretation, config, debate_case, neg_html, on_event)
-        neg_html, _ = _retry(add_topicality_violation, config, debate_case, neg_html, on_event)
-        neg_html, _ = _retry(add_topicality_reasons_to_prefer, config, debate_case, neg_html, on_event)
+    positions = neg_case.get("positions", [])
+    _emit(f"Negative chose {len(positions)} off-case position(s): "
+          + ", ".join(p.get("title", "?") for p in positions))
 
-    # Theory
-    th = neg_case.get("theory", {})
-    if th and th.get("title"):
-        _emit("Building theory...")
-        neg_html += f"<h2>{th['title']}</h2>\n<p>{th.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>"
-        neg_html, _, _ = _retry(add_theory_interpretation, config, debate_case, neg_html, on_event)
-        neg_html, _ = _retry(add_theory_violation, config, debate_case, neg_html, on_event)
-        neg_html, _ = _retry(add_theory_reasons_to_prefer, config, debate_case, neg_html, on_event)
+    # Build each position using the appropriate dispatcher
+    for i, pos in enumerate(positions, 1):
+        ptype = pos.get("position_type", "")
+        title = pos.get("title", "Unknown")
+        builder = _POSITION_BUILDERS.get(ptype)
 
-    # Disadvantage
-    da = neg_case["disadvantages"][0]
-    _emit("Building disadvantage...")
-    neg_html += f"<h2>{da['title']}</h2>\n<p>{da.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>"
-    neg_html, _ = _retry(add_da_uniqueness, config, debate_case, neg_html, on_event)
-    neg_html, _ = _retry(add_da_link, config, debate_case, neg_html, on_event)
-    neg_html, _ = _retry(add_da_internal_link, config, debate_case, neg_html, on_event)
-    neg_html, _ = _retry(add_da_impact, config, debate_case, neg_html, on_event)
+        if builder is None:
+            _emit(f"Skipping unknown position type: {ptype}")
+            continue
 
-    # Counterplan
-    _emit("Building counterplan...")
-    neg_html, _ = _retry(add_cp_text, config, debate_case, neg_html, on_event)
-    neg_html, _ = _retry(add_cp_solvency, config, debate_case, neg_html, on_event)
-    neg_html, _ = _retry(add_cp_net_benefit, config, debate_case, neg_html, on_event)
-
-    # Kritik
-    k = neg_case["kritiks"][0]
-    _emit("Building kritik...")
-    neg_html += (
-        f"<h2>{k['title']}</h2>\n"
-        f"<p>{k.get('core_argument_summary_as_spoken_outloud_in_debate_round', '')}</p>\n"
-        f"<p><strong>Thus the Alternative:</strong> {k.get('alternative_text', '')}</p>"
-    )
-    neg_html, _ = _retry(add_kritik_link, config, debate_case, neg_html, on_event)
-    neg_html, _ = _retry(add_kritik_impact, config, debate_case, neg_html, on_event)
-    neg_html, _ = _retry(add_kritik_rotb, config, debate_case, neg_html, on_event)
+        _emit(f"Building {ptype} ({i}/{len(positions)}): {title}...")
+        neg_html = builder(config, debate_case, neg_html, pos, on_event, _retry)
 
     # On-case rebuttals
     _emit("Building on-case rebuttals...")

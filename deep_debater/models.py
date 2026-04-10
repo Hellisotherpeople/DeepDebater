@@ -157,39 +157,33 @@ class AdvantagesResult(BaseModel):
 # Negative off-case positions
 # ---------------------------------------------------------------------------
 
-class Topicality(BaseModel):
+class OffCasePosition(BaseModel):
+    """A single negative off-case position.
+
+    The ``position_type`` tells the builder what evidence structure to use:
+
+    - ``"topicality"`` — interpretation, violation, reasons to prefer
+    - ``"theory"`` — interpretation, violation, reasons to prefer
+    - ``"disadvantage"`` — uniqueness, link, internal link, impact
+    - ``"counterplan"`` — text, solvency, net benefit (requires ``counterplan_text``)
+    - ``"kritik"`` — link, impact, role of the ballot (requires ``alternative_text``)
+    """
+
+    position_type: Literal["topicality", "theory", "disadvantage", "counterplan", "kritik"]
     title: str
     core_argument_summary_as_spoken_outloud_in_debate_round: str
-
-
-class Theory(BaseModel):
-    title: str
-    core_argument_summary_as_spoken_outloud_in_debate_round: str
-
-
-class Disadvantage(BaseModel):
-    title: str
-    core_argument_summary_as_spoken_outloud_in_debate_round: str
-
-
-class Counterplan(BaseModel):
-    title: str
-    core_argument_summary_as_spoken_outloud_in_debate_round: str
-    counterplan_text: str
-
-
-class Kritik(BaseModel):
-    title: str
-    core_argument_summary_as_spoken_outloud_in_debate_round: str
-    alternative_text: str
+    counterplan_text: str = ""
+    alternative_text: str = ""
 
 
 class NegativePositions(BaseModel):
-    topicality: Topicality
-    theory: Theory
-    disadvantages: List[Disadvantage] = Field(..., min_length=1, max_length=1)
-    counterplans: List[Counterplan] = Field(..., min_length=1, max_length=1)
-    kritiks: List[Kritik] = Field(..., min_length=1, max_length=1)
+    """The negative's strategic selection of off-case positions.
+
+    Up to 4 positions, any mix of types. The negative chooses what
+    gives them the best chance to win — no mandatory types.
+    """
+
+    positions: List[OffCasePosition] = Field(..., min_length=1, max_length=4)
     rationale: str
     advice_for_next_search: str
 
